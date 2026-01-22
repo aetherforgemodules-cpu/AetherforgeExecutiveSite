@@ -1,1 +1,75 @@
+/* EXECUTIVE OS — CORE VISUAL FRAMEWORK */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#os-container {
+    width: 90%;
+    max-width: 700px;
+    background: rgba(20, 20, 20, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 40px rgba(0, 200, 255, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #00eaff;
+}
+
+#output {
+    height: 300px;
+    overflow-y: auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+#command-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+}
+
+.command {
+    color: #00eaff;
+    font-weight: bold;
+}
+
+.response {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00eaff;
+    border-radius: 4px;
+}
 
